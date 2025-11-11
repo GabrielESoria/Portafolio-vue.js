@@ -1,0 +1,28 @@
+/* Base styles for the application */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+:root {
+  --primary-green: #3B5323;
+  --dark-green: #2E3D1F;
+  --darker-green: #1D2612;
+  --light-green: #B4C8B2;
+  --medium-green: #A0B5A0;
+  --text-white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: var(--primary-green);
+  color: var(--text-white);
+  line-height: 1.6;
+}
